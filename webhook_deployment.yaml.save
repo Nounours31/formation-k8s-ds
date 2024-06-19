@@ -1,0 +1,106 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: simple-kubernetes-webhook-tls
+type: kubernetes.io/tls
+data:
+  tls.crt: MIIEejCCA2KgAwIBAgIUMXKl2ZkZmyM0djRMuV8KsxIvSNAwDQYJKoZIhvcNAQEL
+BQAwgcsxCzAJBgNVBAYTAlVTMRQwEgYDVQQIDAtSYW5kb21TdGF0ZTETMBEGA1UE
+BwwKUmFuZG9tQ2l0eTEbMBkGA1UECgwSUmFuZG9tT3JnYW5pemF0aW9uMR8wHQYD
+VQQLDBZSYW5kb21Pcmdhbml6YXRpb25Vbml0MSIwIAYJKoZIhvcNAQkBFhNleGFt
+cGxlQGV4YW1wbGUuY29tMS8wLQYDVQQDDCZjb252ZXJzaW9uLXdlYmhvb2stc2Vy
+dmljZS5kZWZhdWx0LnN2YzAeFw0yNDA2MTgxOTQ3MDVaFw0yNTA2MTgxOTQ3MDVa
+MIHLMQswCQYDVQQGEwJVUzEUMBIGA1UECAwLUmFuZG9tU3RhdGUxEzARBgNVBAcM
+ClJhbmRvbUNpdHkxGzAZBgNVBAoMElJhbmRvbU9yZ2FuaXphdGlvbjEfMB0GA1UE
+CwwWUmFuZG9tT3JnYW5pemF0aW9uVW5pdDEiMCAGCSqGSIb3DQEJARYTZXhhbXBs
+ZUBleGFtcGxlLmNvbTEvMC0GA1UEAwwmY29udmVyc2lvbi13ZWJob29rLXNlcnZp
+Y2UuZGVmYXVsdC5zdmMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDT
+7+ZuL+3ShEgJQ3IcjAC5JGnTUxV//i3mjLvvi6WvIPND5a0/J70N4let0LfoA+rY
+U3ZXDx3DS4QsnhqcuE+duagF0KDus60uKl0hdx01xl967ktXUbPnF0Cqvw/b9iWi
+ldLVb8s4J2pSWd3R+AoOzWaxIEZrdl6miSHjaKMzPyLPlrksrvMtlmJ1giDYqOPT
+Z5q7hcRTSVZBYSwGkkqKsBSRJoYSEIhgkC6huu1OMydIubjvtaFeWk0ViZZq/s6z
+Ma/WOTA66vitLUBIVpE/lmPLReV5zzkGmRFIuoZIkHYWscvnOJEuW3EQKKiSu0Ic
+C2xikRx+jaJk3hSYZHMdAgMBAAGjVDBSMDEGA1UdEQQqMCiCJmNvbnZlcnNpb24t
+d2ViaG9vay1zZXJ2aWNlLmRlZmF1bHQuc3ZjMB0GA1UdDgQWBBRiv4FdBFdiIoSq
+P7RN7dUmo21j/DANBgkqhkiG9w0BAQsFAAOCAQEARruHzCEul8aZo51ayT1UL17X
+zlebJgqXTdoy2X8rgdLxUGH6rw3NsEScncj0hZ1oIqiXNooWMP0gClvv9KQuI71j
+/CGnVVZdELu4cD3E09bYYttUGRQW3DZoYCw0q0WbY2DKCYqaXyDMgHD0eU8u0h+M
+CP+1j4XaHmb4dQOipYeXR5QNNCZCdx6yqjiMRD6m69EYm1WvTWbBq5Ks6BfyqwyD
+HfA0rUA2365KhsBFZ75YCr3psK6rLIcQ2erCbQc1OdnG4k3s1FhCuK3nh/FKt1qf
+oER1pZUTfO1HUXoc+kKA1wysOLU/AcD/DAidTvhW/r2ZscQqdT3QT2AEmq0uJA==
+ 
+  tls.key: MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDT7+ZuL+3ShEgJ
+Q3IcjAC5JGnTUxV//i3mjLvvi6WvIPND5a0/J70N4let0LfoA+rYU3ZXDx3DS4Qs
+nhqcuE+duagF0KDus60uKl0hdx01xl967ktXUbPnF0Cqvw/b9iWildLVb8s4J2pS
+Wd3R+AoOzWaxIEZrdl6miSHjaKMzPyLPlrksrvMtlmJ1giDYqOPTZ5q7hcRTSVZB
+YSwGkkqKsBSRJoYSEIhgkC6huu1OMydIubjvtaFeWk0ViZZq/s6zMa/WOTA66vit
+LUBIVpE/lmPLReV5zzkGmRFIuoZIkHYWscvnOJEuW3EQKKiSu0IcC2xikRx+jaJk
+3hSYZHMdAgMBAAECggEATcSJ2YTcz5KanEuTY8Y7vbQO4OxrxzuNvDuH+q5TbZ+5
+pABzQeljBeU4Jx+fXBOT6S03D1sMoMzlAzpAqaE4Fbg6X2fepbhoo7gH1G/Q2Bqi
+jolCPBhO2008/Wp+d0grJy2y337WIxTTfsRbEODjT+su82/UZzpYIOPQ+5E50WN9
+xKBWhy/m3cZxURNlhaWXdXvFlVb8UNli4WFPh1wqkwT8u/6FdbtHmdVXYvSMRfWT
+rocaWV9gl0BhriyjgkunGZ2RbbrkBp9dqhK+/ibtV8vMrIfkPv4dx+xiwFjbkFkx
+qm1UBal7JlGKg/URvjZ8zYbCUy24KOzMQ6hSUr6aQQKBgQD/kaxuvV/TL1aKVO8N
+kLOu3FCxp0O+RBpH1bH2lJv0J5z4I93sL2NbW/SM0MrSfb2r2A1t2dpXDdAmV4Eo
+E+hApgb9+NtcznvDaCPDiIQEoU3hKtBOrXPkPX69Jr1onpu4I7NQ0N5cGPyHtTnV
+EXh262IV3NykgH5bsEbi5T3y5wKBgQDUS2QgHSS8CVlnHv3Mq3rxkYpxqzQKEFC9
+vehCIJedl4or6oYSxYr3/f9uHnrCIgZ/UF3ZTXMdcsPL+VMEEW8GPtou7x6dwTh8
+4F65YDTgF3VCJ6ZLRUNZfYpKHknOXUI4CM53I1Lf7C/khw1A/VdJMEhsjxKJzlDL
+5UFJQd+tWwKBgQCKqZkrBGjHhnmn2GlTrN0w1Kyblys0QnMX4qQKK5tqH0wVfjBc
+g2GfIgdPl8FT75FHeZPftEG41e/HvdZ/zj1HRk2o4qrycb3IyeoNnzYx5OsCbl5T
+Md0dSxhGvIwsBVJr2ELkaE8dHRl28CcOqcn4i8HOJuU4A9eLG9t6I/M2pQKBgQDI
+446b1Pgt96riKjGAu8RbU53uclOMMmQ1KL/f03elaQEXDZZRrR0UDwbm7XC8w/Xi
+A+rK9r833qHpIsWr09N71X4ha6VNIsqRYMBCKwfeBlSvhVWXZLOWu3VhLcgpv5Yp
+8CtwEb0aqCWp2yJvnUw7tbTTBZBFVzaduxNMf0lqgQKBgQDw5LptcptIzZp5MQ2l
+TXbq0mAfkwBGV5y3bUIUBZuezjdlXH340x16e55d2cOYexUXtfjEhuFT8ciz+4mg
+QcyxKbaaT1VMVGy/6wpDy5dUbwHPJqSW2wMwT68p2owT+NQuena8feUETn+u4rdc
+vT4Bwh7Jj/sbyumrR9y/rxsQ4g==
+ 
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: sconversion-webhook-service
+  namespace: default
+spec:
+  ports:
+    - port: 443
+      protocol: TCP
+      targetPort: 443
+  selector:
+    app: simple-kubernetes-webhook
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-kubernetes-webhook
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: simple-kubernetes-webhook
+  template:
+    metadata:
+      labels:
+        app: simple-kubernetes-webhook
+    spec:
+      containers:
+        - image: demo.goharbor.io/training/webhook:1.0.0
+          name: simple-kubernetes-webhook
+          volumeMounts:
+            - name: crt
+              mountPath: "/etc/admission-webhook/crt"
+            - name: tls
+              mountPath: "/etc/admission-webhook/tls"
+      volumes:
+        - name: crt
+          secret:
+            secretName: simple-kubernetes-webhook-crt
+        - name: tls
+          secret:
+            secretName: simple-kubernetes-webhook-tls
+

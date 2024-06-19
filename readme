@@ -1,0 +1,23 @@
+// creation du secret pour puller l'image
+kubectl create secret docker-registry registry --docker-server=demo.goharbor.io/ --docker-username=demo --docker-password=Aa123654789 --docker-email=kiki@free.fr
+
+
+// push dans minicube de l'image
+minikube cache add alpine:latest
+minikube cache reload
+minikube cache list
+minikube cache delete <image name>
+
+
+// ajout des nouveau CRD
+kubectl apply -f v1.yaml
+kubectl apply -f v2.yaml
+
+
+
+$ ssh ubuntu@3.255.156.242 -i ~/trans/training.pem
+ubuntu@ip-172-31-20-186:~$ cd /tmp/formation-k8s
+ubuntu@ip-172-31-20-186:/tmp/formation-k8s$ git fetch; git pull; cp * /tmp/formation-kub-avances/TP-1/pfs
+
+ubuntu@ip-172-31-20-186:/tmp/formation-kub-avances/TP-1/pfs$
+
